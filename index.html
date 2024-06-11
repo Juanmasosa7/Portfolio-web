@@ -16,14 +16,17 @@
 <body>
     <!-- Inicio header -->
     <header>
-        <p>Juan Manuel Sosa</p>
-        <nav>
-            <a href="#inicio" class="linkInicio">Inicio</a>
-            <a href="#about" class="decoracionLinks">Sobre mi</a>
-            <a href="#habilidades" class="decoracionLinks">Habilidades</a>
-            <a href="#proyectos" class="decoracionLinks">Proyectos</a>
-            <a href="#contacto" class="decoracionLinks">Contacto</a>
-        </nav>
+        <p class="logo">Juan Manuel Sosa</p>
+        <div>
+            <nav class="navbar">
+                <a href="#inicio" class="linkInicio">Inicio</a>
+                <a href="#about" class="decoracionLinks">Sobre mi</a>
+                <a href="#habilidades" class="decoracionLinks">Habilidades</a>
+                <a href="#proyectos" class="decoracionLinks">Proyectos</a>
+                <a href="#contacto" class="decoracionLinks">Contacto</a>
+            </nav>
+        </div>
+        <i class="fa-solid fa-bars icono-navbar icono-navbar"></i>
     </header>
     <!-- Fin header -->
 
@@ -32,10 +35,11 @@
         <section id="inicio" class="hero">
             <section class="grupo-Hero">
                 <section class="contenedorHero">
-                    <!-- <h1>Hola, <br> Soy <span class="palabraColor">Juan Manuel Sosa</span> <br>Programador Web</h1> -->
-                    <h1>Hola,</h1>
-                    <h1>Soy <span class="palabraColor">Juan Manuel Sosa</span></h1>
-                    <h1>Programador web</h1>
+                    <div class="letras-Hero">
+                        <h1>Hola,</h1>
+                        <h1>Soy <span class="palabraColor">Juan Manuel Sosa</span></h1>
+                        <h1>Programador web</h1>
+                    </div>
                     <div class="boton-hero">
                         <a href="#contact">
                             <button>Contact</button>
@@ -55,7 +59,7 @@
                         </div>    
                     </section>
                 </section>
-                <section>
+                <section class="foto-portada">
                     <img src="img/imgHero.jpg" alt="Portada" class="imgPortada">
                 </section>
             </section>

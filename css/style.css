@@ -41,8 +41,15 @@ header a{
 }
 
 header p{
-    padding: 0 400px 0 0;
+    padding: 0 20rem 0 0;
 }
+
+.icono-navbar{
+    color: #0f2434;
+    font-size: 20px;
+    display: none;
+}
+
 /* Fin header */
 
 /* Inicio Hero */
