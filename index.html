@@ -3,9 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- cdn boostrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/5709a427a1.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    
+    <!-- Inicio header -->
+    <header>
+        <p>Juan Manuel Sosa</p>
+        <nav>
+            <a href="#inicio" class="linkInicio">Inicio</a>
+            <a href="#about" class="decoracionLinks">Sobre mi</a>
+            <a href="#habilidades" class="decoracionLinks">Habilidades</a>
+            <a href="#proyectos" class="decoracionLinks">Proyectos</a>
+            <a href="#contacto" class="decoracionLinks">Contacto</a>
+        </nav>
+    </header>
+    <!-- Fin header -->
+
+    <main>
+        <!-- Inicio Hero -->
+        <section id="inicio" class="hero">
+            <section class="grupo-Hero">
+                <section class="contenedorHero">
+                    <!-- <h1>Hola, <br> Soy <span class="palabraColor">Juan Manuel Sosa</span> <br>Programador Web</h1> -->
+                    <h1>Hola,</h1>
+                    <h1>Soy <span class="palabraColor">Juan Manuel Sosa</span></h1>
+                    <h1>Programador web</h1>
+                    <div class="boton-hero">
+                        <a href="#contact">
+                            <button>Contact</button>
+                        </a>
+                    </div>
+                    <section class="iconos-hero">
+                        <div class="iconos-posicion">
+                            <a href="https://www.promiedos.com.ar/" class="iconos">
+                                <i class="fa-brands fa-linkedin-in tamanio-hero"></i>
+                            </a>
+                            <a href="https://www.promiedos.com.ar/" class="iconos">
+                                <i class="fa-brands fa-behance tamanio-hero"></i>
+                            </a>
+                            <a href="https://www.promiedos.com.ar/" class="iconos">
+                                <i class="fa-brands fa-github tamanio-hero"></i>
+                            </a>
+                        </div>    
+                    </section>
+                </section>
+                <section>
+                    <img src="img/img1.jpg" alt="Portada" class="imgPortada">
+                </section>
+            </section>
+        </section>    
+        <!-- Fin Hero -->
+
+        <!-- Inicio About -->
+        <section id="about" class="contenedorAbout">
+            <h2>Sobre mi</h2>
+            <section class="grupoAbout">
+                <div class="img-about">
+                    <img src="img/img1.jpg" alt="">
+                </div>
+                <div class="info-about">
+                    <h3>Yo soy Juan Manuel Sosa</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ex incidunt ut blanditiis tempora accusantium consectetur quae fuga! Dolorum explicabo aliquid velit quam porro possimus, cupiditate asperiores incidunt quae aliquam!</p>
+                </div>    
+            </section>    
+        </section>
+        <!-- Fin about -->
+
+        <!-- Inicio Habilidades -->
+        <section id="habilidades" class="habilidades">
+            <h2>Habilidades</h2>
+            <section class="contenedorHabilidades">
+                <section class="grupoHabilidades">
+                    <h3>Habilidades Profesionales</h3>
+                    <p class="texto-habilidades">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat numquam optio ipsa cumque vero excepturi sapiente itaque earum eum, ipsam, laudantium officiis molestiae, repellat rerum sequi id. Ratione, magnam et!</p>
+                    <div class="habilidades-main">
+                        <div class="habilidades-bar">
+                            <div class="habilidades-info">
+                                <div class="habilidades-iconos">
+                                     <i class="fa-brands fa-html5 tamanio" style="color: #4170f5;"></i>
+                                    <p>HTML5</p>
+                                </div>
+                                <p>85%</p>
+                            </div>
+                            <div class="bar">
+                                <span class="html-bar"></span>
+                            </div>
+                        </div>
+                        <div class="habilidades-bar">
+                            <div class="habilidades-info">
+                                <div class="habilidades-iconos">
+                                    <i class="fa-brands fa-css3-alt tamanio" style="color: #4170f5;"></i>
+                                    <p>CSS3</p>
+                                </div>
+                                <p>75%</p>
+                            </div>
+                            <div class="bar">
+                                <span class="css-bar"></span>
+                            </div>
+                        </div>
+                        <div class="habilidades-bar">
+                            <div class="habilidades-info">
+                                <div class="habilidades-iconos">
+                                    <i class="fa-brands fa-js tamanio" style="color: #4170f5;"></i>
+                                    <p>JAVASCRIPT</p>
+                                </div>
+                                <p>50%</p>
+                            </div>
+                            <div class="bar">
+                                <span class="js-bar"></span>
+                            </div>
+                        </div>
+                        <div class="habilidades-bar">
+                            <div class="habilidades-info">
+                                <div class="habilidades-iconos">
+                                    <i class="fa-brands fa-python tamanio" style="color: #4170f5;"></i>
+                                    <p>PYTHON</p>
+                                </div>
+                                <p>80%</p>
+                            </div>
+                            <div class="bar">
+                                <span class="python-bar"></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="img-habilidades">
+                    <img src="img/img2.jpg" alt="">
+                </section>  
+            </section>
+        </section>
+        <!-- Fin Habilidades -->
+
+        <!-- Inicio Proyectos -->
+        <section id="proyectos" class="proyectos">
+            <div>
+                <h2>Proyectos</h2>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="img/img2.jpg" alt="Proyecto 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/img2.jpg" alt="Proyecto 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/img2.jpg" alt="Proyecto 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/img2.jpg" alt="Proyecto 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/img2.jpg" alt="Proyecto 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/img2.jpg" alt="Proyecto 6">
+                </div>
+            </div>
+        </section>
+        <!-- Fin proyectos -->
+
+        <!-- Inicio Contacto -->
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <form action="" class="formulario">
+                <input type="text" placeholder="Nombre" maxlength="30" minlength="5" required class="form-nombre"/>
+                <input type="email" placeholder="Email" class="form-email">
+                <input type="text" placeholder="" maxlength="60" minlength="1" required class="form-texto"/> 
+                <button class="boton-contacto">Enviar</button>
+            </form>
+        </section>
+        <!-- Fin Contacto -->
+    </main>
+
+    <!-- Inicio footer -->
+    <footer class="footer">
+        <h2>Juan Manuel Sosa</h2>
+        <section class="ico-footer-posicion">
+            <a href="https://www.promiedos.com.ar/"class="iconos-footer">
+                <i class="fa-brands fa-facebook-f" style="color: #ffffff;" ></i>
+            </a>
+            <a href="https://www.promiedos.com.ar/"class="iconos-footer">
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            </a>
+            <a href="https://www.promiedos.com.ar/"class="iconos-footer">
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            </a> 
+        </section>
+        <p class="derechos">&copy; 2024 todos los derechos de autor reservados</p>
+    </footer>
+    <!-- Fin footer -->
 </body>
 </html>
