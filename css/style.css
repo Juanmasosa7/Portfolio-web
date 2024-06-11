@@ -10,3 +10,403 @@ body{
     color: rgb(15 36 52);
     font-family: "Poppins", sans-serif;
 }
+
+/* Inicio header */
+header{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* el borde solo seria para abajo */
+    border-bottom: 1px solid rgb(211, 211, 211);
+    font-weight: bold;
+    /* position: fixed; */
+    background-color: white;
+}
+
+header a{
+    margin: 7px;
+    padding: 0 0 0 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.linkInicio{
+    /* alejar linea */
+    text-decoration:underline 2px rgb(65,112,245);
+}
+
+.decoracionLinks:hover{
+    text-decoration:underline 2px rgb(65,112,245);
+}
+
+header p{
+    padding: 0 400px 0 0;
+}
+/* Fin header */
+
+/* Inicio Hero */
+
+.hero{
+    height: 65vh;
+    padding: 0 0 70px 0;
+}
+
+.grupo-Hero{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 50px 0 0 0;
+}
+
+.contenedorHero{
+    display: flex;
+    flex-direction:column;
+}
+
+.contenedorHero h1{
+    font-size: 45px;
+    padding: 10px 0px;
+}
+
+.palabraColor{
+    color: rgb(65,112,245);
+}
+
+.boton-hero{
+    padding: 40px 0 0 0;
+}
+
+.imgPortada{
+    width: 400px;
+    padding: 0 35px 0 0;
+}
+
+.iconos-hero{
+    padding: 60px 0;
+}
+
+.iconos-posicion{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+.ico-footer-posicion{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(15 36 52);
+}
+
+.iconos{
+    padding: 0 30px 0 0;
+    transition: color 1s;
+    color: #0f2434
+}
+
+.iconos:hover{
+    color: rgb(65,112,245);
+}
+
+.tamanio-hero{
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(65,112,245);
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 32px;
+    border: solid;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/* Fin Hero */
+
+/* Inicio About */
+
+.contenedorAbout{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.contenedorAbout h2{
+    font-size: 30px;
+    color: rgb(65,112,245);
+    text-decoration: underline rgb(65,112,245);
+    text-align: center;
+}
+
+.grupoAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 40px 0 80px 0;
+}
+
+.grupoAbout h2{
+    font-size: 45px;
+    padding: 30px 0px;
+} 
+
+.img-about{
+    padding: 0 0 0 120px;
+}
+
+.img-about img{
+    width: 250px;
+    border-radius: 8px;
+}
+
+.info-about{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 35%;
+    padding: 0 50px 0 0;
+}
+
+.info-about h3{
+    padding: 20px 0;
+}
+
+/* Fin About */
+
+/* Inicio Habilidades */
+.habilidades {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.habilidades h2{
+    font-size: 30px;
+    color: rgb(65,112,245);
+    text-decoration: underline rgb(65,112,245);
+    text-align: center;
+}
+
+.contenedorHabilidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.grupoHabilidades{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 0 40px 0 0;
+}
+
+.contenedorHabilidades .grupoHabilidades h3{
+    margin:0 0 15px 0;
+}
+
+.contenedorHabilidades .grupoHabilidades .texto-habilidades{
+    margin:0 0 30px 0;
+}
+
+.contenedorHabilidades .grupoHabilidades p{
+    margin:0 0 15px 0;
+}
+
+.habilidades-main{
+    width: 100%;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 25px;
+}
+
+.habilidades-bar{
+    box-shadow: 0px 0px 16px 0px rgb(209 209 209);
+}
+
+.habilidades-main .habilidades-bar .habilidades-info p{
+    font-weight: bold;
+    padding: 0 0 0 12px;
+}
+
+.habilidades-iconos{
+    display: flex;
+}
+
+.tamanio{
+    font-size: 27px;
+}
+
+.habilidades-main .habilidades-bar .habilidades-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+}
+
+.habilidades-bar .bar{
+    width: 100%;
+    height: 5px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.habilidades-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(65,112,245);
+}
+
+.habilidades-bar .bar .html-bar{
+    width: 85%;
+}
+.habilidades-bar .bar .css-bar{
+    width: 75%;
+}
+.habilidades-bar .bar .js-bar{
+    width: 50%;
+}
+.habilidades-bar .bar .python-bar{
+    width: 80%;
+}
+
+/* al redondedear bordes quedan mal gracias al padding pero no lo puedo cambiar */
+.img-habilidades img{
+    width: 400px;
+    border-radius: 7px;
+    padding: 0 50px 0 10px;
+}
+
+/* DEBO PONER EL TEXTO DE CADA HABILIDAD A MEDIA ALTURA PERO NO SE COMO HACERLOO */
+/* se termino toda la ilusion de aprobar, el navbar se ve con el fixed */
+/* Fin Habilidades */
+
+/* Inicio proyectos*/
+.proyectos{
+    width: 100%;
+    padding: 40px 0;
+}
+.proyectos h2{
+    font-size: 30px;
+    color: rgb(65,112,245);
+    text-decoration: underline rgb(65,112,245);
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 150px 60px 150px;
+}
+
+.gallery-item{
+    margin: 10px;
+    text-align: center;
+    flex-basis: 30%;
+    box-shadow: -2px 1px 16px 0px rgb(209 209 209);
+    border-radius: 10px;
+    transition: transform 0.7s;
+}
+
+.gallery-item:hover{
+    transform: scale(1.05);
+}
+
+.gallery .gallery-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Fin proyectos */
+
+/* Inicio contacto */
+.contacto{
+    width: 100%;
+    padding: 40px 0;
+}
+
+.contacto h2{
+    font-size: 30px;
+    color: rgb(65,112,245);
+    text-decoration: underline rgb(65,112,245);
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.form-nombre, .form-email{
+    padding: 7px 40px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 7px;
+}
+
+.form-texto{
+    padding: 60px 40px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: justify;
+    size: 50px;
+}
+
+.boton-contacto{
+    margin: 20px 0 0 175px;
+}
+/* queda mal el espacio para escribir con el padding */
+/* Fin Contacto */
+
+/* Inicio Footer */
+.footer{
+    background-color: rgb(15 36 52);
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h2{
+    color: white;
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(15 36 52);
+}
+
+.ico-footer-posicion{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(15 36 52);
+}
+
+.iconos-footer{
+    padding: 25px 15px;
+    background-color: rgb(15 36 52);
+}
+
+.derechos{
+    text-align: center;
+    color: rgb(161, 161, 161);
+    margin: 15px 0;
+    background-color: rgb(15 36 52);
+}
+/* Fin footer */
+
+/* para el futuro en responsive usar en el header
+<i class="fa-solid fa-bars" style="color: #0f2434;"></i> */
