@@ -48,7 +48,7 @@ header p{
 /* Inicio Hero */
 
 .hero{
-    height: 65vh;
+    height: 70vh;
     padding: 0 0 70px 0;
 }
 
@@ -276,15 +276,12 @@ button:hover{
     width: 80%;
 }
 
-/* al redondedear bordes quedan mal gracias al padding pero no lo puedo cambiar */
 .img-habilidades img{
     width: 400px;
     border-radius: 7px;
     padding: 0 50px 0 10px;
 }
 
-/* DEBO PONER EL TEXTO DE CADA HABILIDAD A MEDIA ALTURA PERO NO SE COMO HACERLOO */
-/* se termino toda la ilusion de aprobar, el navbar se ve con el fixed */
 /* Fin Habilidades */
 
 /* Inicio proyectos*/
@@ -366,7 +363,6 @@ form{
 .boton-contacto{
     margin: 20px 0 0 175px;
 }
-/* queda mal el espacio para escribir con el padding */
 /* Fin Contacto */
 
 /* Inicio Footer */
@@ -407,6 +403,3 @@ form{
     background-color: rgb(15 36 52);
 }
 /* Fin footer */
-
-/* para el futuro en responsive usar en el header
-<i class="fa-solid fa-bars" style="color: #0f2434;"></i> */

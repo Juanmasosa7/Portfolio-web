@@ -1,0 +1,34 @@
+/* dispositivos mobiles pequeños onda blackberry */
+@media(max-width:320px){
+
+}
+
+/* dispositivos mobiles normal */
+@media(max-width:480px){
+
+}
+
+/* tablets y modo retrato (horizontal) del celu */
+@media(max-width:768px){
+
+}
+
+/* tablets y modo retrato, mobiles mas grandes */
+@media(max-width:1024px){
+
+}
+
+/* tablets modo paisaje y laptops pequeñas */
+@media(max-width:1280px){
+
+}
+
+/* desktop, computadoras o tablets */
+@media(max-width:1440px){
+
+}
+
+/* computadoras 4k */
+@media(max-width:1920px){
+
+}
