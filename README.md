@@ -19,4 +19,16 @@ Ademas, aclarar que el párrafo de la section ¨About¨ esta justificado unicame
 Finalmente comentar que no me hizo falta agregar ninguna section ya que el portfolio venia con las solicitadas.
 </p>
 
-<h5> Espero le guste mi Proyecto!! 😀</h5>
+<h4> Espero le guste mi Proyecto!! 😀</h4>
+
+<p>Esta es la fuente que utilice para mi página</p>
+<ul> 
+  <li>"Poppins", sans-serif</li>
+</ul>
+
+<p>Estos son los colores que utilice para mi página</p>
+<ul> 
+  <li>#ffffff</li>
+  <li>#0f2434</li>
+  <li>rgb(65,112,245)</li>
+</ul>
