@@ -20,7 +20,7 @@ Finalmente comentar que no me hizo falta agregar ninguna section ya que el portf
 </p>
 
 <h4> Espero le guste mi Proyecto!! 😀</h4>
-<p> Deplyoments: "https://juanmasosa7.github.io/Portfolio-web"/</p>
+<p> Deplyoments: "https://juanmasosa7.github.io/Portfolio-web/"</p>
 
 <p>Esta es la fuente que utilice para mi página</p>
 <ul> 
