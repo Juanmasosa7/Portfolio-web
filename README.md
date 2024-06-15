@@ -14,9 +14,9 @@ Se tuvo en cuenta los distintos tipos de pantallas por lo que la pagina es total
 
 ## Aclaraciones
 <p> En la section de "proyectos" al no tener casi ninguno propio no pude utilizar mi información. Por lo tanto, mostré mi unico proyecto realizado para mi novia, una página especializada en venta de tazas. Este proyecto lo realice hace unos años con los pocos conocimientos sobre html y css. La idea es ir actualizando mi portfolio con nuevos proyectos en un futuro... <br>
-Debo aclarar que realice este trabajo con una pantalla de 1366px x 768px por lo que al momento de ver mi pagina en resoluciones de 1280px y 1440px me gustó como quedó y no modifique nada debido a la semejanza con mi pantalla. <br>
+Debo aclarar que realice este trabajo con una pantalla de 1366px x 768px por lo que al momento de ver mi pagina en resoluciones de 1280px y 1440px me gustó como quedó y no modifique nada debido a la semejanza con mi pantalla. También, en resoluciones mas chcas elimine la foto del hero ya que no aportaria nada a la pagina y se veria mal. <br>
 Ademas, aclarar que el párrafo de la section ¨About¨ esta justificado unicamente por gusto, analicé que así se veria más prolijo (en el portfolio original no está justificado).<br>
-Finalmente comentar que no me hizo falta agregar ninguna section ya que el portfolio venia con las solicitadas.
+Finalmente comentar que no me hizo falta agregar ninguna section ya que el portfolio venia con las solicitadas. El único cambio que hice fue no darle a cada section un height: 100vh ya que seria una mala practica y cualquier usario se podria confundir por el fondo blanco.
 </p>
 
 <h4> Espero le guste mi Proyecto!! 😀</h4>
